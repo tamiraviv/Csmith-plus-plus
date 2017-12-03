@@ -1,0 +1,7 @@
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.WebRole.dll
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\AzureSetup.cfg
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\wfastcgi.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Release\web.config
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Release\web.debug.config

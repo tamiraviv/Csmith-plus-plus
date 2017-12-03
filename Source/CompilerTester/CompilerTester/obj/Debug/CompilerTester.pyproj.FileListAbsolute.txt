@@ -1,0 +1,13 @@
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.WebRole.dll
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\attach_server.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\visualstudio_py_debugger.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\visualstudio_py_repl.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\visualstudio_py_util.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\__init__.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\__main__.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\AzureSetup.cfg
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\bin\wfastcgi.py
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\web.config
+C:\TFS\CSmithPP\CompilerTester\CompilerTester\obj\Debug\web.debug.config

@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StatementFilter" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAgAAAAAAABAAA=</HashCode>
+      <FileName>Statement.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonVoidTypeFilter" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAUEAAAAAAAAAAAAAAAAACAQA=</HashCode>
+      <FileName>Type.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonVoidNonVolatileTypeFilter" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAUEAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Type.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChooseRandomTypeFilter" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAAAAAUEAACAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Type.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableSelectFilter" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAABAABAAA=</HashCode>
+      <FileName>VariableSelector.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbsExtension" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIBAAAAAABAABQBAAAAAAAAAAJAAgAAABAAAIAAEAQA=</HashCode>
+      <FileName>AbsExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbsProgramGenerator" Collapsed="true">
+    <Position X="11.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEABAAAAAAACAQAAAEAAAAgBAAAIAAAAAAAAAAACgA=</HashCode>
+      <FileName>AbsProgramGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbsRndNumGenerator" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAQAAAxABBAAAAAAgAABAEBIAAIJQABAA=</HashCode>
+      <FileName>AbsRndNumGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayVariable" Collapsed="true">
+    <Position X="15.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIgWfAABQBAAAJCQUJYQkCAAAAACDAACAQoAAAoAAA=</HashCode>
+      <FileName>ArrayVariable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Block" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YABMECgAQQAEABAAgAAIBAIGRAhAZEAAhYAhAAkKAAk=</HashCode>
+      <FileName>Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bookkeeper" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUEEAEiCAkoAAgEohiIMQQKFAQCCAKGAYBIlQAAoQYA=</HashCode>
+      <FileName>Bookkeeper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFGEdge" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAACAAIACgAAAAAAQAAAAAA=</HashCode>
+      <FileName>CFGEdge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RWDirective" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIABACAAQAAAAEAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CGContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGContext" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAQAAESKABBJCIAQYQEQiFQAghgEgIRImASARMIU=</HashCode>
+      <FileName>CGContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGOptions" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xc4G3tZ2Z4uVlGuxGnmiqb+F2c3+qSfWPUWcLNGqIM8=</HashCode>
+      <FileName>CGOptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompatibleChecker" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>CompatibleChecker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Constant" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAACgAAAAAAAIUgAFBAABACgAIwAAEAAAAAk=</HashCode>
+      <FileName>Constant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestExtension" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBICAAAAAAAAACCAAAAAAAAgJAEgACCBCAAAAAAAAA=</HashCode>
+      <FileName>CoverageTestExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrestExtension" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAABAAAAAAAEAAAAAAAAJAEgAAABAEAAAAACAA=</HashCode>
+      <FileName>CrestExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CVQualifiers" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEwABABAAUIAA3KAAAAKAEgCAAgAoRIAIgkAAYgIAI=</HashCode>
+      <FileName>CVQualifiers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultOutputMgr" Collapsed="true">
+    <Position X="10.75" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="OutputMgr" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="10.062" />
+        <Point X="13.75" Y="10.375" />
+        <Point X="11.562" Y="10.375" />
+        <Point X="11.562" Y="10.626" />
+        <Point X="11.562" Y="10.626" />
+        <Point X="11.562" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAABQAAgAAMAAEAAACIEAASAABAkAIEEKAAAAIAAAA=</HashCode>
+      <FileName>DefaultOutputMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultProgramGenerator" Collapsed="true">
+    <Position X="10.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAIAEIEAAAAgAAAAIAAAAAAAAAAECgA=</HashCode>
+      <FileName>DefaultProgramGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultRndNumGenerator" Collapsed="true">
+    <Position X="8.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgAAAAAAAgAYACAwEDAAAAAAAgAABAEAIAAIAQABAA=</HashCode>
+      <FileName>DefaultRndNumGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeltaMonitor" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAIFAAAADAAAAAACIAYACCAGAAAICAAAAgAAEAAA=</HashCode>
+      <FileName>DeltaMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DepthSpec" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEQAAUAIBAAAQAQAAIAEAAAAgAAAAIgA=</HashCode>
+      <FileName>DepthSpec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFSOutputMgr" Collapsed="true">
+    <Position X="15.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQAAIAAAAAAAIAIECAABAgAAAECAAAAAAAAI=</HashCode>
+      <FileName>DFSOutputMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFSProgramGenerator" Collapsed="true">
+    <Position X="12.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAIAAIEAAAAgAAAQIAAAAAAAAAAECgA=</HashCode>
+      <FileName>DFSProgramGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFSRndNumGenerator" Collapsed="true">
+    <Position X="11" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQkAAAJAKBYESgwArMIUAACAgACBAEAIAAIAAABAA=</HashCode>
+      <FileName>DFSRndNumGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Effect" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FcAAAAAAAAgiAAYAAAmIAIQQAECEAyAACgAhFAEQAAA=</HashCode>
+      <FileName>Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Error" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAEQAAAAAAAAAAAAAAAAAEAAAIgAAAAAA=</HashCode>
+      <FileName>Error.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expression" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAADAGAECgEABAABIJUxgBAAkQASGwIAAAEABAEAk=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionAssign" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACACAACkAAAAAAAIUQgAQAgQASAAgAEAEAgAAgg=</HashCode>
+      <FileName>ExpressionAssign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionComma" Collapsed="true">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACACACCgAAAAAAAIUQgAQAgQBSABAAEAEAAAACg=</HashCode>
+      <FileName>ExpressionComma.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionFuncall" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACACAACgAAAACAAIUygAAAgQASAQAAAgEAAAEAg=</HashCode>
+      <FileName>ExpressionFuncall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionVariable" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAKACAAAgAAAAACAIUggAAAgJACACAAAgEAAAAAg=</HashCode>
+      <FileName>ExpressionVariable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtensionMgr" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAABAAAAAAAAAAAAAAAZAAgAABBAAAAAAAAYA=</HashCode>
+      <FileName>ExtensionMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtensionValue" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQIAAAAAAAjAAAQAAAIBAIAA=</HashCode>
+      <FileName>ExtensionValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fact" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAgAAACAAAQACAAIQABIIAAIAAAACAAAEQAAYAA=</HashCode>
+      <FileName>Fact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactMgr" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AE2LmgwoBwgEggGACQEIQAAAAAEWIAlAAIAARAABBAg=</HashCode>
+      <FileName>FactMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactPointTo" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAiKogAIACAAIASGKAJRAAIICBIAAAKEAAkEUQAKCA=</HashCode>
+      <FileName>FactPointTo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactUnion" Collapsed="true">
+    <Position X="17.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIIgAAAiIQIQQCBAIQAAIoAAIAABIAAAAEQAAIAA=</HashCode>
+      <FileName>FactUnion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABgAAAAIAAAAEAAAADAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Finalization" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Finalization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Function" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBE4IAgIAAoyAACIAABIAIYEAQg8hIQRAKoAgACEFAg=</HashCode>
+      <FileName>Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionInvocation" Collapsed="true">
+    <Position X="3" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAIRQACAAKIgICAAAAJQwAAAAAQUTIBEAAiEBABgAg=</HashCode>
+      <FileName>FunctionInvocation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionInvocationBinary" Collapsed="true">
+    <Position X="0.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAACACgAAABAIQgAAIABQASQGAAggEAABAIA=</HashCode>
+      <FileName>FunctionInvocationBinary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionInvocationUnary" Collapsed="true">
+    <Position X="3" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAAAIQggAACgQAQQAAAAgEABAAAA=</HashCode>
+      <FileName>FunctionInvocationUnary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionInvocationUser" Collapsed="true">
+    <Position X="5.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAgAAAAAAAAAIwgASQACAAQEAgAQAEAAAAAA=</HashCode>
+      <FileName>FunctionInvocationUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KleeExtension" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAAAAAAAAAAEAAAAAAAAJAEgAAABAEAAACAAAA=</HashCode>
+      <FileName>KleeExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lhs" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAKIABAAgAAAAAAAIUgAAAAgJCCQCAAwgEAIAAAg=</HashCode>
+      <FileName>Lhs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearSequence" Collapsed="true">
+    <Position X="2.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAEAAAgAIAAABBACBCAAAAgAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>LinearSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MspBinaryFilter" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MspFilters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MspSafeOpSizeFilter" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAEAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>MspFilters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputMgr" Collapsed="true">
+    <Position X="13" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KDBAAcgACAAIAEQAECAIAAECCAACgBCAECAAAAgAAAA=</HashCode>
+      <FileName>OutputMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartialExpander" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAQCIkgAIAAAAAAEAAAAAAAAAIBAI=</HashCode>
+      <FileName>PartialExpander.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbabilityFilter" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbElem" Collapsed="true">
+    <Position X="6.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAQAAAAAAAAAAAEAAAAAAAAEIABAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SingleProbElem" Collapsed="true">
+    <Position X="5.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAACAEAAEEAAAAEIABAAAAAwAAQEAgAgA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroupProbElem" Collapsed="true">
+    <Position X="7.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAhAAAAMAAAAEAAECAAIAMIABAAAAAgAEEMAAAAA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Probabilities" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoUQAhEACQAYBISAUCEAGhAAlIBAAAAAAE0gABQDAkA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TableEntry&lt;Key, Value&gt;" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAKAAAAAAAAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>ProbabilityTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProbabilityTable&lt;Key, Value&gt;" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAIABIAAEgAAAAAAAAAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>ProbabilityTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistributionTable" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAABAIAICwAAAABQAAAAAAAAAA=</HashCode>
+      <FileName>ProbabilityTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomNumber" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgABAgAEAAAAAAAAABAAEAABAhEIJAEAIAAIAAABAQ=</HashCode>
+      <FileName>RandomNumber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reducer" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAUQCUYghAAMmgpnBoSGQRgAaYQYOSAACMtAA0A2AXQ=</HashCode>
+      <FileName>Reducer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReducerOutputMgr" Collapsed="true">
+    <Position X="13" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIIABAAAAACCIABAAAAMASECAAAAkiAAQAwAAgTEBqA=</HashCode>
+      <FileName>ReducerOutputMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SafeOpFlags" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAgIQAEAAREgABAAAAgAEgAIAAAgQIBIIAgEAAIAAA=</HashCode>
+      <FileName>SafeOpFlags.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequence" Collapsed="true">
+    <Position X="1.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABEAAAgQAAAABBACBAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequenceFactory" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAEAkAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SequenceFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SequenceLineParser&lt;Container&gt;" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAgAAEAAAAAA=</HashCode>
+      <FileName>SequenceLineParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleDeltaRndNumGenerator" Collapsed="true">
+    <Position X="13.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIgIACAAAAAQYADAwAjAAAAAACgAABAEAIAAIAAABAQ=</HashCode>
+      <FileName>SimpleDeltaRndNumGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleDeltaSequence" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAQBAEIAAgAIAAABBAGBEAAAAgAAAAAAQAAAIgAAAA=</HashCode>
+      <FileName>SimpleDeltaSequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplatExtension" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAEAAAAAAAAAAAAAAAAAAAAJAEhAAABAEAAAAAAAA=</HashCode>
+      <FileName>SplatExtension.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Statement" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SEAIGBACABAgIFRAAACIRwR6BAgQABEUS4AgAIJEAhg=</HashCode>
+      <FileName>Statement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementArrayOp" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RIQBAAAAACAAAIAAAAAIBAAAAQAAgAAAARAAAACQAAg=</HashCode>
+      <FileName>StatementArrayOp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementAssign" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAhACAgAIKAAIAAAJJSACQAiABgADAQEogAgRAAg=</HashCode>
+      <FileName>StatementAssign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementBreak" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAAIAABAAAAAAAAIBAAAAAAAAAAIAQAAAAAAAAg=</HashCode>
+      <FileName>StatementBreak.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementContinue" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAAIAAAAAAAAAAAIBAAAAAAAAAAIBQAAEAAAAAg=</HashCode>
+      <FileName>StatementContinue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementExpr" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABAAAAQAAAIBQAAACgAAAAAAQAgAAgAEAg=</HashCode>
+      <FileName>StatementExpr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementFor" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABCABAAAAAAgIBAAAAQgACAIIAQBgCgAAYAg=</HashCode>
+      <FileName>StatementFor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementGoto" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAgBAAAAABAAAAAIBQMAAAAACAFIAQAAAAAAAAg=</HashCode>
+      <FileName>StatementGoto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementIf" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAACBAAQABQAEAAIBAAAAAAAAAAIEQAgBQABAAg=</HashCode>
+      <FileName>StatementIf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatementReturn" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAIAAAAAAABCAAAAIBAAAAAgIAAAAAQAgAAAAAAo=</HashCode>
+      <FileName>StatementReturn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringUtils" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACKAAAEAYQAEAAAAAAAMAgEAAAJAACABAAAAhA=</HashCode>
+      <FileName>StringUtils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Type" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>XGigSIggRkATVic2ggAK7Q47AhCDAAQmhUAKSgiAFsI=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Variable" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQwgKjEUcDAQIIKRUQMf4gKkKSlCDoQIITAAAJoAVI=</HashCode>
+      <FileName>Variable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableSelector" Collapsed="true">
+    <Position X="31.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQMKAAiMADEAABwwQANKEAAAIAAiB4BwCABwAkBgAEA=</HashCode>
+      <FileName>VariableSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorFilter" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAEAAAAAAAAAAAAAAAAAEAAAACEAAACAAAAAAABCAAA=</HashCode>
+      <FileName>VectorFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="binary_reduced_stm" Collapsed="true">
+    <Position X="24.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAACAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReducerOutputMgr.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="VariableSet" Collapsed="true">
+    <Position X="26" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CGContext.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FactVec" Collapsed="true">
+    <Position X="1.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fact.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FactVecP" Collapsed="true">
+    <Position X="1.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fact.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="intvec" Collapsed="true">
+    <Position X="24.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="RNDNUM_GENERATOR" Collapsed="true">
+    <Position X="31.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AbsRndNumGenerator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DELTA_TYPE" Collapsed="true">
+    <Position X="24.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeltaMonitor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="dType" Collapsed="true">
+    <Position X="26" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAYgJCDAA4IQBAEAQABCACAAIggEABAEAoAABHARA=</HashCode>
+      <FileName>DepthSpec.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBinaryOp" Collapsed="true">
+    <Position X="29.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eTermType" Collapsed="true">
+    <Position X="31.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABAAAAQAAAAACAAAAAAAABEAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eFactCategory" Collapsed="true">
+    <Position X="33" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fact.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FilterKind" Collapsed="true">
+    <Position X="27.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Filter.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eUnaryOps" Collapsed="true">
+    <Position X="24.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAAAAIAgIAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FunctionInvocation.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBinaryOps" Collapsed="true">
+    <Position X="31.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAABQEAEAAAAQAAEAACAIAAAAAAEQAgAEAAAAAIA=</HashCode>
+      <FileName>FunctionInvocation.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eInvocationType" Collapsed="true">
+    <Position X="24.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAIAA=</HashCode>
+      <FileName>FunctionInvocation.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ProbName" Collapsed="true">
+    <Position X="29.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgIQII8qESHGAALCGYxkLzAAAOgh9RACBQIKLNMVASA=</HashCode>
+      <FileName>Probabilities.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SafeOpKind" Collapsed="true">
+    <Position X="33" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SafeOpFlags.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SafeOpSize" Collapsed="true">
+    <Position X="24.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAGAAAAAAACAAIAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SafeOpFlags.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eStatementType" Collapsed="true">
+    <Position X="29.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAHAAAABAAAAAAAACAIAAAQQAAAAAAIAAA=</HashCode>
+      <FileName>Statement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eAssignOps" Collapsed="true">
+    <Position X="27.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGECCIELIAAAAAAAAAgAAACAAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>StatementAssign.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eTypeDesc" Collapsed="true">
+    <Position X="33" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAEAAAAAgAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSimpleType" Collapsed="true">
+    <Position X="27.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQAgAAAQAiAAAAAAAAAAAAgAIQAAAABAAAIAAAAAg=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eMatchType" Collapsed="true">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eVariableScope" Collapsed="true">
+    <Position X="26" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAAAAAAAACAAAAAAAAAAAAAAAAAABAAAAgAAA=</HashCode>
+      <FileName>VariableSelector.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CompilerTester", "CompilerTester\CompilerTester.pyproj", "{9D0B4916-2E05-497C-8979-BC2CB2958BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D0B4916-2E05-497C-8979-BC2CB2958BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0B4916-2E05-497C-8979-BC2CB2958BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0B4916-2E05-497C-8979-BC2CB2958BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0B4916-2E05-497C-8979-BC2CB2958BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://csmithpp.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CompilerTester\\CompilerTester.pyproj
+		SccProjectName1 = CompilerTester
+		SccLocalPath1 = CompilerTester
+	EndGlobalSection
+EndGlobal
